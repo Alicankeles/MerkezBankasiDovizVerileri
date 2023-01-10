@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MerkezBankasiDovizVerileri.Data", "MerkezBankasiDovizVerileri.Data\MerkezBankasiDovizVerileri.Data.csproj", "{5253C89B-8C99-45BA-B8AF-9272BBBCF45E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MerkezBankasiDovizVerileri.UI", "MerkezBankasiDovizVerileri.UI\MerkezBankasiDovizVerileri.UI.csproj", "{8743F6EE-572B-41CB-9768-E35C3F0EFBAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5253C89B-8C99-45BA-B8AF-9272BBBCF45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5253C89B-8C99-45BA-B8AF-9272BBBCF45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5253C89B-8C99-45BA-B8AF-9272BBBCF45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5253C89B-8C99-45BA-B8AF-9272BBBCF45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8743F6EE-572B-41CB-9768-E35C3F0EFBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8743F6EE-572B-41CB-9768-E35C3F0EFBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8743F6EE-572B-41CB-9768-E35C3F0EFBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8743F6EE-572B-41CB-9768-E35C3F0EFBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1BFBEF1-D7A5-4787-AFCF-6C601F29A9F7}
+	EndGlobalSection
+EndGlobal

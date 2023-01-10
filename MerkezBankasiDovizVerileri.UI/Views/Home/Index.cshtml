@@ -1,0 +1,45 @@
+﻿@model List<MerkezBankasiDovizVerileri.UI.Models.IndexViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta http-equiv="refresh" content="10" />
+</head>
+<div class="row">
+    <div class="col-sm-10">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Merkez Bankası Döviz Kurları</h4>
+                <div class="card-body">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Adı</th>
+                                <th>Alış Kuru</th>
+                                <th></th>
+                                <th>3</th>
+                                <th>3</th>
+                                <th>3</th>
+                                <th>3</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Adi</td>
+                                    <td>@item.AlisKuru</td>
+                                    <td>@item.Kodu</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
